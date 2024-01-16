@@ -1,11 +1,11 @@
 
-## General Feature Extraction in SAR Target Classification: A Contrastive Learning Approach Across Sensor Types
+# General Feature Extraction in SAR Target Classification: A Contrastive Learning Approach Across Sensor Types
 
 This the code related to the paper.
 
 It consists in the feature extractor explained in the article followed by a k-NN. To apply the algorithm run the `eval_knn.py` file.
 
-### Parameters of `eval_knn.py`:
+## Parameters of `eval_knn.py`:
 
 - **nb_knn** : List of all the nearest neighbors computed
 - **normalization** : [min,max] parameters to normalise data such that : `y = (log x - min)/(max - min)`
