@@ -57,7 +57,7 @@ if __name__ == '__main__':
     params['labeled_path'] = './data/labeled'
     # Network parameters
     params['device'] = 'cuda'
-    params['model_path'] = 'pipeline\weights\sethi_t_8' # vit_t/8
+    params['model_path'] = 'pipeline/weights/sethi_t_8' # vit_t/8
     params['arch'] = None # None for a simple unroling of the image or 'vit_tiny' for the trained network
     params['patch_size'] = 8
     params['patch_drop'] = 0
